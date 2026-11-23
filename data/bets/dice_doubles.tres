@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="BetDefinition" format=3 uid="uid://66xhs1ch0e3x"]
+
+[ext_resource type="Script" uid="uid://cw1dry108k7o" path="res://data/bet_definition.gd" id="1_bbwl0"]
+
+[resource]
+script = ExtResource("1_bbwl0")
+id = &"dice_doubles"
+display_name = "Doubles"
+payout_multiplier = 5.4

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="TableDefinition" format=3 uid="uid://bl8j7bmt48bjk"]
+
+[ext_resource type="Script" uid="uid://cw1dry108k7o" path="res://data/bet_definition.gd" id="1_6ir4d"]
+[ext_resource type="Resource" uid="uid://l66sof7sua22" path="res://data/bets/dice_low.tres" id="2_pxkud"]
+[ext_resource type="Resource" uid="uid://b4203y7a6enwq" path="res://data/bets/dice_seven.tres" id="3_r77kr"]
+[ext_resource type="Resource" uid="uid://blpyx8ag1okn4" path="res://data/bets/dice_high.tres" id="4_jnuwy"]
+[ext_resource type="Resource" uid="uid://66xhs1ch0e3x" path="res://data/bets/dice_doubles.tres" id="5_gyq0o"]
+[ext_resource type="Script" uid="uid://bi7piuvydon3s" path="res://data/table_definition.gd" id="6_tin22"]
+
+[resource]
+script = ExtResource("6_tin22")
+id = &"dice"
+title = "Dice Table"
+game_type = &"dice"
+bets = Array[ExtResource("1_6ir4d")]([ExtResource("2_pxkud"), ExtResource("3_r77kr"), ExtResource("4_jnuwy"), ExtResource("5_gyq0o")])

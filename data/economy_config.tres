@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="EconomyConfig" format=3 uid="uid://ct8gpgrsx5fy7"]
+
+[ext_resource type="Script" uid="uid://dhuwvuxe2vx3d" path="res://data/enemy_config.gd" id="1_8ly35"]
+
+[resource]
+script = ExtResource("1_8ly35")

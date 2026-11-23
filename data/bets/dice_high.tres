@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="BetDefinition" format=3 uid="uid://blpyx8ag1okn4"]
+
+[ext_resource type="Script" uid="uid://cw1dry108k7o" path="res://data/bet_definition.gd" id="1_2ijyt"]
+
+[resource]
+script = ExtResource("1_2ijyt")
+id = &"dice_high"
+display_name = "High (8-12)"
+payout_multiplier = 2.16
