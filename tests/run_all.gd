@@ -4,6 +4,8 @@ extends SceneTree
 const SUITES := [
 	preload("res://tests/suites/test_rng.gd"),
 	preload("res://tests/suites/test_data.gd"),
+	preload("res://tests/suites/test_wallet.gd"),
+	preload("res://tests/suites/test_stake_validator.gd"),
 ]
 
 func _init() -> void:

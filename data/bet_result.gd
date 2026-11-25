@@ -13,7 +13,7 @@ static func create(p_outcome: Dictionary, p_gross_payout: int, p_stake: int) -> 
 	var r := BetResult.new()
 	r.outcome = p_outcome
 	r.gross_payout = p_gross_payout
-	r.net_profit = p_gross_payout - p_stake
+	r.net_profit = PayoutCalculator.net_profit(p_gross_payout,p_stake)
 	r.is_win = p_gross_payout > p_stake
 	r.is_push = p_gross_payout == p_stake
 	return r
