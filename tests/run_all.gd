@@ -6,6 +6,7 @@ const SUITES := [
 	preload("res://tests/suites/test_data.gd"),
 	preload("res://tests/suites/test_wallet.gd"),
 	preload("res://tests/suites/test_stake_validator.gd"),
+	preload("res://tests/suites/test_wallet_edge_cases.gd"),
 ]
 
 func _init() -> void:
